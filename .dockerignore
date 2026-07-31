@@ -1,0 +1,16 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+node_modules
+frontend/dist
+backend/.venv
+**/__pycache__
+**/*.pyc
+README.md
+ROADMAP.md
+CONTRIBUTING.md
+SECURITY.md
+LICENSE
+.github

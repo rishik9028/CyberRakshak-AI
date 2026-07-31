@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Issues
+    url: https://github.com/rishik9028/CyberRakshak-AI/security
+    about: Report security vulnerabilities privately. Please do not open public issues for security problems.

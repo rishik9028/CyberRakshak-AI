@@ -1,0 +1,11 @@
+from fastapi import APIRouter
+
+from app.schemas.health import HealthResponse
+
+router = APIRouter()
+
+
+@router.get("/health", response_model=HealthResponse, summary="Health check")
+def health_check() -> HealthResponse:
+    """Return service health status and uptime."""
+    return HealthResponse(status="ok", version="0.1.0", service="cyberrakshak-backend")
